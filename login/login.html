@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SignIn.css">
+</head>
+<body>
+    <main>
+        <div class="container_input">
+            <h1 id="titulo">𝙻𝚘𝚐𝚒𝚗</h1>
+            <p class="subtitulo">𝙴𝚖𝚊𝚒𝚕:</p>
+            <label for="email">
+                <input class="input_formulario" type="email" id="email" name="email" required>
+            </label>
+            <p class="subtitulo">𝚂𝚎𝚗𝚑𝚊:</p>
+
+            <div class="container_senha" onclick="swapImage()">
+                <label for="senha">
+                    <input class="input_formulario" type="password" id="password" name="name" required autocomplete="off">
+                    <span class="icon-eye-open" id="eye-closed"></span>
+                    <span class="icon-eye-closed" id="eye-open"></span>
+                    <!-- <img src="https://cursos.alura.com.br/assets/images/alura/icon-eye-closed.svg" alt="icon-closed">
+                    <img src="https://cursos.alura.com.br/assets/images/alura/icon-eye.svg" alt="icon-open" style="opacity: 0;"> -->
+                </label>
+            </div>
+        </div>
+            <a href="#" id="forgot_senha">𝙴𝚜𝚚𝚞𝚎𝚌𝚎𝚞 𝚜𝚎𝚗𝚑𝚊</a>
+            <button class="button">Entrar</button>
+            <div class="container_linha">
+                <div class="line"></div>
+                <p class="message">𝚘𝚞</p>
+                <div class="line"></div>
+            </div>
+        <div class="social_media">
+            <a href="https://accounts.google.com/v3/signin/identifier?ddm=0&elo=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=AdF4I76FCoUJNt7GjAP7dKAMLBTPmjwUJDQOO06u05SrFI9XwJE-0cRptIXRBKy7ITJn0Ij8ieIu6w&dsh=S671174122%3A1720488486781871"><img src="./../image/google.png" alt="" width="40px"></a>
+            <a href="https://github.com/login"><img src="./../image/github.png" alt="" width="40px"></a>
+            <a href="https://www.facebook.com/login/?locale=pt_BR"><img src="./../image/facebook.png" alt="" width="40px"></a>
+        </div>
+        <a href="./../index.html" id="texto_inscreva-se">𝙳𝚘𝚗𝚝 𝚑𝚊𝚟𝚎 𝚊𝚗 𝚊𝚌𝚌𝚘𝚞𝚗𝚝? <strong>𝚂𝚒𝚐𝚗 𝚞𝚙</strong></a>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

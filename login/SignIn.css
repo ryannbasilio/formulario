@@ -1,0 +1,164 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./../image/login-image.webp);
+    background-size: cover;
+}
+
+
+.container_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#titulo {
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    position: relative;
+    right: 8rem;
+}
+
+.input_formulario {
+    padding: 0.8rem;
+    width: 20rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+}
+
+.icon-eye-closed, .icon-eye-open {
+    position: absolute;
+    top: 38.1%;
+    right: 33.4rem;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+.icon-eye-closed {
+    background: url(https://cursos.alura.com.br/assets/images/alura/icon-eye-closed.svg) no-repeat 0;
+}
+
+.icon-eye-open {
+    background: url(https://cursos.alura.com.br/assets/images/alura/icon-eye.svg) no-repeat 0;
+    opacity: 0;
+}
+
+#forgot_senha {
+    position: relative;
+    left: 44.3rem;
+    bottom: 0.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35rem;
+    top: 1rem;
+    padding: 0.8rem 0.8rem;
+    width: 15rem;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+.container_linha {
+      display: flex;
+      align-items: center;
+      padding-top: 1rem;
+      position: relative;
+      top: 1.5rem;
+      left: 29.5rem;
+      width: 30%;
+    }
+
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgba(55, 65, 81, 1);
+}
+
+.container_linha .message {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(0, 0, 0);
+  }
+
+.social_media {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    top: 2.5rem;
+}
+
+#texto_inscreva-se {
+    position: relative;
+    top: 3.5rem;
+    color: #000;
+    text-decoration: none;
+    left: 34rem;
+}
+
+@media (max-width: 480px) {
+    main {
+        position: relative;
+        top: 3rem;
+    }
+
+    #forgot_senha {
+        left: 14rem;
+    }
+
+    .button {
+        left: 5rem;
+    }
+
+    .container_linha {
+        left: 2.5rem;
+        width: 20rem;
+    }
+
+    .social_media {
+        left: 0.3rem;
+    }
+
+    #texto_inscreva-se {
+        left: 4.2rem;
+    }
+}
